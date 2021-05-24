@@ -1,0 +1,350 @@
+{/* <ReactApexChart
+        options={chartoptions.options}
+        series={chartoptions.series}
+        width="300"
+        type="donut"
+      />
+      <ReactApexChart
+        options={chartoptions2.options}
+        series={chartoptions2.series}
+        width="300"
+        type="bar"
+      />
+      
+      <ReactApexChart
+        options={chartoptions4.options}
+        series={chartoptions4.series}
+        type="bar"
+        height={350}
+      /> */}
+
+
+
+      {/* <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Author Sales</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>64M</h3>
+              <ReactApexChart
+                options={chartoptions2.options}
+                series={chartoptions2.series}
+                width="200"
+                type="bar"
+              />
+            </div>
+          </GridItem>
+
+          <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Technologies</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>9.3M</h3>
+              <ReactApexChart
+                options={chartoptions.options}
+                series={chartoptions.series}
+                width="250"
+                type="donut"
+              />
+            </div>
+          </GridItem>
+          <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Total Orders</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>17M</h3>
+              <ReactApexChart
+                options={chartoptions3.options}
+                series={chartoptions3.series}
+                type="area"
+                width="200"
+              />
+            </div>
+          </GridItem> */}
+
+
+
+          {/* <div
+        style={{
+          background: "#888",
+          height: "3px",
+          width: "20px",
+          marginBottom: "6px"
+        }}
+      ></div>{" "}
+      <div
+        style={{
+          background: "#888",
+          height: "3px",
+          width: "32px",
+          marginBottom: "6px"
+        }}
+      ></div>{" "}
+      <div style={{ background: "#888", height: "3px", width: "20px" }}></div> */}
+
+
+
+
+       {/* <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Author Sales</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>64M</h3>
+              <ReactApexChart
+                options={chartoptions2.options}
+                series={chartoptions2.series}
+                width="200"
+                type="bar"
+              />
+            </div>
+          </GridItem>
+
+          <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Technologies</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>9.3M</h3>
+              <ReactApexChart
+                options={chartoptions.options}
+                series={chartoptions.series}
+                width="250"
+                type="donut"
+              />
+            </div>
+          </GridItem>
+          <GridItem>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>Total Orders</h3>
+              <button style={{ background: "none", alignSelf: "flex-start" }}>
+                . . .
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem"
+              }}
+            >
+              <h3>17M</h3>
+              <ReactApexChart
+                options={chartoptions3.options}
+                series={chartoptions3.series}
+                type="area"
+                width="200"
+              />
+            </div>
+          </GridItem> */}
+
+
+
+
+
+          NEXT JS content 
+
+          export default function Next() {
+  return (
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(350px,1fr))",
+        gap: "1rem"
+      }}
+    >
+      <div style={{ padding: "1rem", border: "1px solid #888" }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h4 style={{ color: "#888" }}>ANNOUNCEMENTS</h4>
+          <div>
+            <button>{"<"}</button>
+            <button>{">"}</button>
+          </div>
+        </div>
+        <h3>Incredibly Positive Reviews</h3>
+        <p>
+          To start a blog, think of a topic about first brainstorm party is ways
+          to write details
+        </p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h6>17 NOV,2018</h6>
+          <button style={{ color: "#888" }}>VIEW</button>
+        </div>
+      </div>
+      <div style={{ padding: "1rem", border: "1px solid #888" }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h4 style={{ color: "#888" }}>ANNOUNCEMENTS</h4>
+          <div>
+            <button>{"<"}</button>
+            <button>{">"}</button>
+          </div>
+        </div>
+        <h3>Incredibly Positive Reviews</h3>
+        <p>
+          To start a blog, think of a topic about first brainstorm party is ways
+          to write details
+        </p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h6>17 NOV,2018</h6>
+          {/* <button style={{ color: "#888" }}>VIEW</button> */}
+        </div>
+      </div>
+      {/* 
+
+
+next element 
+
+
+*/}
+      <div style={{ padding: "1rem", border: "1px solid #888" }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h4 style={{ color: "#888" }}>ANNOUNCEMENTS</h4>
+          <div>
+            <button>{"<"}</button>
+            <button>{">"}</button>
+          </div>
+        </div>
+        <h3>Incredibly Positive Reviews</h3>
+        <p>
+          To start a blog, think of a topic about first brainstorm party is ways
+          to write details
+        </p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between"
+          }}
+        >
+          <h6>17 NOV,2018</h6>
+          <button style={{ color: "#888" }}>VIEW MAP</button>
+        </div>
+      </div>
+    </div>
+  );
+}

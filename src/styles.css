@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+button {
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.change {
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
+}
+.stats {
+  grid-column: span 2;
+}
+.topproducts-button:hover {
+  color: white;
+  background: blue;
+}
+
+.hide {
+  display: flex;
+}
+.showSidebar {
+  display: block;
+}
+.hideSidebar {
+  display: none;
+}
+@media only screen and (max-width: 1100px) {
+  .change {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  .stats {
+    grid-column: span 1;
+  }
+  .hide {
+    display: none;
+  }
+}
+.hide button:hover {
+  color: blue;
+  background: rgba(0, 0, 139, 0.1);
+}
+/* 
+.showsidebar {
+  display: block;
+  z-index: 2;
+} */
